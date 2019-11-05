@@ -1,0 +1,75 @@
+<!doctype html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>FindThePrecious</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+          <li>        <h1><a href="http://images.innoveduc.fr//integration_parcours/wireframe/wireframe-new.png">FindThePrecious.com</a></h1>
+          </li>
+        
+        <li><a href="#Fellows">Fellows</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="title_menu" id="Fellows">Fellows</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+      in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>  
+    Fellows wanted dead (...)
+      <ul>
+        <!-- performance 1 -->
+        <li>
+          <h3>The wizard</h3>
+          <p> <img src="https://via.placeholder.com/150" alt="placeholder"> </p>
+        </li>
+        <!-- performance 2 -->
+        <li>
+          <h3>The Dwarf</h3>
+          <p> <img src="https://via.placeholder.com/150" alt="placeholder"> </p>
+        </li>
+        <!-- performance 3 -->
+        <li>
+          <h3>Hobbit#3</h3>
+          <p> <img src="https://via.placeholder.com/150" alt="placeholder"> </p>
+        </li>
+      </ul>
+      </section>
+
+  <hr/>
+
+  <section>
+    <h2 id="ContactUs">Contact Us</h2>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email"><br/>
+    <label for="URL">Enter your URL:</label>
+    <input type="url" id="URL"><br/>
+
+    <select Name="M"><option selected>"Have you seen one of them?"<option>Have you got one of them?<option>Have you been hurt by one of them?</select>
+  <br/>
+    <label for="Message"></label><br/>
+
+    <textarea rows=5 cols=60 id="Message">Your Message</textarea><br/>
+
+    <input type="Submit" value="Send" id="Button"><br/>
+  </section>
+
+  <hr/>
+
+  <br/>
+  <footer>
+          <ul>
+        <li>[<a href=https://www.codecademy.com/>About us</a>] - [<a href=https://www.sololearn.com/>Fellows</a>] - [<a href=https://wildcodeschool.com>Join our army!</a>] </li>
+        <li>[<a href=https://wildcodeschool.com>FAQ</a>] - [<a href=https://wildcodeschool.com>Reward conditions</a>] - [<a href=https://wildcodeschool.com>Legal mentions</a>] </li>
+<li>[<a href=http://sauron4ever.com>Sauron4ever.com</a>] - [<a href=http://sauron4ever.com>Follow him also on Twitter</a>]</li>
+      </ul>
+      </footer>
+</body>
