@@ -1,0 +1,73 @@
+/* Styles for image mouseover effects 
+ */
+.container {
+  position: relative;
+  width: 25%;
+}
+
+.image {
+  opacity: 0.4;
+  display: block;
+  height: auto;
+  width: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 39%;
+  left: 51%;
+  font-size: 45px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-box {
+  width: 190%;
+  height:20%;
+  border-radius:20px;
+  position:relative;
+  top: 1%;
+    left: -40%;
+    right: 1%;
+    bottom: 1%;
+  margin:2;
+  padding: 2%;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size:50px;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.overlay-box .gold {
+  color: #fcc11e;
+}
+
+
+
+.container:hover .image {
+  opacity: 1.0;
+}
+.container:hover .overlay-box {
+  opacity: 0;
+}
+.container:hover .middle {
+  opacity: 1;
+  font-size: 25px;
+  top: 75%;
+  left: 50%;
+}
+
+.middle .text{
+  color: white;
+  font-family: Arial;
+  font-size: inherit;
+  text-align: center;
+}
+ 
